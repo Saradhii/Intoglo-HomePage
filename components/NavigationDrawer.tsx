@@ -46,7 +46,7 @@ function NavItemsList({ items }: NavigationDrawerProps) {
     <ul>
       {items.map((singleItem, idx) => {
         return (
-          <NavItem key={idx}>
+          <NavItem onClick={()=> close()} key={idx}>
             <NextLink href={singleItem.href}>{singleItem.title}</NextLink>
           </NavItem>
         );
