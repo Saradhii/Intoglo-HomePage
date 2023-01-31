@@ -18,7 +18,7 @@ export default function Hero() {
     <Head>
     <meta name="description"  content="Intoglo - Fast, Simple and Reliable Cross Border Logistics Platform"/>
     <title>Intoglo - Fast, Simple and Reliable Cross Border Logistics Platform</title>
-    <meta name="robots" content="noindex,nofollow"></meta>
+    {/* <meta name="robots" content="noindex,nofollow"></meta> */}
     </Head>
     <HeroWrapper>
       <Contents>
