@@ -26,10 +26,14 @@ export default function WaveCta() {
             Intoglo’s solution is simple, efficient and cost-effective. We look forward to discussing your export needs.
           </Description>
           <Description>
-            Get in touch with us now{' '}
-            <u>
-              <a href="mailto:contact@intoglo.com">contact@intoglo.com</a>
-            </u>
+          <div className="flex justify-center">
+              <p>Get in touch with us now </p>
+              <form action="contact@intoglo.com" method="get">
+                <button className="underline ml-4" type="submit">
+                  contact@intoglo.com
+                </button>
+              </form>
+            </div>
           </Description>
           <Description></Description>
 
