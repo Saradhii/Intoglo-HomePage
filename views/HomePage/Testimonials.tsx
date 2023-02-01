@@ -9,7 +9,7 @@ import { media } from 'utils/media';
 const TESTIMONIALS = [
   {
     companyLogoUrl: 'hindcha.png',
-    content: `Before Intoglo, we were trying to manage our global logistics through multiple partners but we were facing a lot of operational challenges. Love how Intoglo team has helped ease the entire process for us and made it seamless. And we got better prices as well. We had perfect customer support from Apoorva and his team"`,
+    content: `Before Intoglo, we were trying to manage our global logistics through multiple partners but we were facing a lot of operational challenges. Love how Intoglo team has helped ease the entire process for us and made it seamless. And we got better prices as well. We had perfect customer support from Apoorva and his team`,
     author: {
       name: 'Keshav Mittal',
       title: 'Hindcha, D2C Global Tea Brand',
