@@ -53,7 +53,7 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: '/testimonials/abc.svg',
+    companyLogoUrl: 'nutrition_lab.png',
     content: `Always find the right solution. Intoglo team is amazing, professional, timely and communicative. They work seamlessly and when troubleshooting is needed, they always find the right solution.`,
     author: {
       name: 'Adnan Kapadia',
