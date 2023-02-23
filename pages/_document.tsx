@@ -34,11 +34,12 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
-          <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NWBKSC2" />
+          {/* <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NWBKSC2" /> */}
+          
         </Head>
         <body className="next-light-theme">
            {/*  Google Tag Manager */}
-           <script async dangerouslySetInnerHTML={{
+           {/* <script async dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
             j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -49,7 +50,7 @@ export default class MyDocument extends Document {
             __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NWBKSC2"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
           }}
-          />
+          /> */}
           {/* End Google Tag Manager */}
         
           <Main />
